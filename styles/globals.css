@@ -14,3 +14,426 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* Registration page */
+
+.r-container{
+  /* background-color: aqua; */
+  width: 100%;
+  height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.r-small-container{
+  /* background-color: red; */
+  width: 50%;
+  height: 75vh;
+  display: flex;
+  /* border: 2px solid black; */
+  border-radius: 5px;
+  box-shadow: 1px 1px 20px rgb(179, 178, 178);
+}
+
+.r-min-container{
+  /* background-color: #282c34; */
+  height: 100%;
+  width: 50%;
+}
+
+.r-sign-head{
+    height: 15%;
+    width: 90%;
+    /* background-color: brown; */
+    margin: 0;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid black;
+}
+
+.r-register-form{
+    height: 85%;
+    width: 90%;
+    padding-left: 10%;
+    margin-left: 10%;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items :flex-start;
+    justify-content: space-evenly;
+}
+
+.r-form-group{
+  
+  width: 100%;
+}
+
+.r-button-input{
+  padding: 5px 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgb(214, 208, 208);
+  
+}
+
+.r-form-input{
+  margin-left: 10px;
+  font-size: 18px;
+  padding: 5px 0px;
+  width: 87%;
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(155, 154, 154);
+}
+
+.r-form-button{
+  display: flex;
+  margin-left: 5%;
+}
+
+.r-button-input:hover{
+  background-color:rgb(71, 69, 69) ;
+  color: azure;
+}
+
+.r-signup-figure{
+  width: 90%;
+  height: 90%;
+}
+ .r-image-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .r-signup-image-link{
+   color: black;
+   text-decoration: none;
+ }
+
+ .r-form-radio{
+   margin: 0 10px;
+   font-size: 18px;
+ }
+
+ /* Contact */
+
+ .c-container{
+  
+  width: 100%;
+  height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+ }
+
+ .c-card-container{
+  width: 100%;
+  height: 25%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+ }
+
+ .c-info-container{
+  width: 100%;
+  height: 75%;
+   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .c-card{
+   width: 20%;
+   height: 45%;
+   box-shadow: 1px 1px 10px rgb(179, 178, 178);
+   display: flex;
+ }
+
+ .c-card-image{
+   height: 100%;
+   width : 30%;
+    
+ }
+ .c-card-info{
+   height: 100%;
+   width : 70%;
+   display: flex;
+   flex-direction: column;
+   align-items: center ;
+   justify-content: center;
+ }
+
+ .c-card-info-title{
+   width: 90%;
+   height: 40%;
+    
+   font-size: large;
+   margin-left: 10%;
+   font-weight: bolder;
+ }
+
+ .c-card-info-data{
+   width: 90%;
+   height: 60%;
+  
+   font-size: large;
+   margin-left: 10%;
+   font-weight: bold;
+ }
+
+ .c-info{
+  width: 45%;
+  height: 80%;
+  
+}
+
+.c-info-title{
+  width: 100%;
+  height: 25%;
+  
+  font-size: 30px;
+  padding: 20px 15px;
+}
+
+.c-info-form{
+  width: 100%;
+  height: 75%;
+  
+}
+
+.c-info-data{
+  width: 100%;
+  height: 20%;
+  
+  display: flex;
+  justify-content: space-around;
+}
+.c-info-data-attribute{
+  width: 33%;
+  height: 100%;
+  border:1px solid gray;
+  border-radius: 10px;
+}
+
+.c-info-message-div{
+  width: 100%;
+  height: 50%;
+  margin-top: 5%;
+  border:1px solid gray; 
+  border-radius: 10px;
+}
+
+.c-info-button{
+  width: 100%;
+  height: 25%;
+  
+}
+
+.c-form-input{
+  background: none;
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding-left: 5%;
+   
+}
+.c-form-message{
+  background: none;
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+}
+
+.c-contact-button{
+  padding: 7px 7px;
+  margin: 20px 20px;
+  background-color: rgb(214, 208, 208);
+  border-radius: 7px;
+  border: 1px solid gray;
+}
+
+.c-contact-button:hover{
+  background-color: rgb(87, 85, 85);
+  color: azure;
+}
+
+.c-card-image-pic{
+  width: 70%;
+  height: 70%;
+  margin: 2px 0;
+  border-right: 1px solid rgb(192, 190, 190);
+}
+
+
+/* Login */
+
+.l-container{
+  /* background-color: aqua; */
+  width: 100%;
+  height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.l-small-container{
+  /* background-color: red; */
+  width: 50%;
+  height: 75vh;
+  display: flex;
+  /* border: 2px solid black; */
+  border-radius: 5px;
+  box-shadow: 1px 1px 20px rgb(179, 178, 178);
+}
+
+.l-min-container{
+  /* background-color: #282c34; */
+  height: 100%;
+  width: 50%;
+}
+
+.l-sign-head{
+    height: 15%;
+    width: 90%;
+    /* background-color: brown; */
+    margin: 0;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid black;
+}
+
+.l-register-form{
+    height: 85%;
+    width: 90%;
+    padding-right: 10%;
+    margin-right: 10%;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items :flex-start;
+    justify-content: center;
+}
+
+.l-form-group{
+  margin: 3% 0;
+  width: 100%;
+}
+
+.l-button-input{
+  padding: 5px 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgb(214, 208, 208);
+  
+}
+
+.l-form-input{
+  margin-left: 10px;
+  font-size: 18px;
+  padding: 5px 0px;
+  width: 87%;
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(155, 154, 154);
+}
+
+.l-form-button{
+  display: flex;
+  justify-content:flex-start
+}
+
+.l-button-input:hover{
+  background-color:rgb(71, 69, 69) ;
+  color: azure;
+}
+
+.l-signup-figure{
+  width: 100%;
+  height: 100%;
+}
+ .l-image-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .l-signup-image-link{
+   color: black;
+   text-decoration: none;
+ }
+
+ .l-form-radio{
+   margin: 0 10px;
+   font-size: 18px;
+ }
+
+ /* hire */
+
+ .hi-container{
+   display: flex;
+   width: 30%;
+   margin: 25px;
+   
+ }
+
+ .hi-left{
+     width: 35%;
+     display: flex;
+     flex-direction: column;
+     justify-content:space-around;
+     align-items: center;
+      background: -webkit-gradient(linear, left top, right top, from(#63bef2), to(#5a8eee));
+      background: linear-gradient(to right, #5a89ee, #63d1f2);
+      padding: 20px 0;
+ }
+ .hi-left h3{
+   margin: 12px 0 ;
+   margin-bottom: 0;
+ }
+
+ .hi-left p{
+   margin: 12px 0 ;
+   margin-bottom: 20px;
+ }
+
+ .hi-right{
+    width: 65%;
+    padding: 10px;
+    background-color: rgb(182, 222, 245);
+ }
+
+ .hi-pic{
+   margin-bottom: 25px;
+ }
+ 
+ .hi-info{
+   display: flex;
+   flex-wrap: wrap;
+   padding-top:20px ;
+ }
+
+ .hi-info div{
+   margin: 0 20px;
+ }
+
+ .hi-cards{
+   display: flex;
+   max-width: 100%;
+   flex-wrap: wrap;
+ }

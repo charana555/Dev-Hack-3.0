@@ -1,6 +1,10 @@
 import React from 'react';
 import pic from '../public/images/login.jpg';
 import Image from 'next/image'
+import PhoneIcon from '@mui/icons-material/Phone';
+import EmailIcon from '@mui/icons-material/Email';
+import AddLocationAltIcon from '@mui/icons-material/AddLocationAlt';
+
 
 const Contact = () => {
   return <>
@@ -9,9 +13,7 @@ const Contact = () => {
           <div className='c-card-container'>
               <div className='c-card'>
                   <div className='c-card-image'>
-                  <figure>
-                      <Image src={pic} alt='contact-card' className='c-card-image-pic' />
-                  </figure>
+                  <PhoneIcon fontSize='large'/>
                   </div>
                   <div className='c-card-info'>
                     <div className='c-card-info-title'>
@@ -24,9 +26,7 @@ const Contact = () => {
               </div>
               <div className='c-card'>
                   <div className='c-card-image'>
-                  <figure>
-                      <Image src={pic} alt='contact-card' className='c-card-image-pic' />
-                  </figure>
+                 <EmailIcon fontSize='large'/>
                   </div>
                   <div className='c-card-info'>
                     <div className='c-card-info-title'>
@@ -39,9 +39,7 @@ const Contact = () => {
               </div>
               <div className='c-card'>
                   <div className='c-card-image'>
-                    <figure>
-                      <Image src={pic} alt='contact-card' className='c-card-image-pic' />
-                    </figure>
+                  <AddLocationAltIcon fontSize='large' />
                   </div>
                   <div className='c-card-info'>
                     <div className='c-card-info-title'>

@@ -67,7 +67,8 @@ a {
 }
 
 .r-form-group{
-  
+  display: flex;
+  align-items: center;
   width: 100%;
 }
 
@@ -161,7 +162,9 @@ a {
  .c-card-image{
    height: 100%;
    width : 30%;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
  .c-card-info{
    height: 100%;
@@ -331,6 +334,8 @@ a {
 .l-form-group{
   margin: 3% 0;
   width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .l-button-input{
@@ -389,6 +394,7 @@ a {
    display: flex;
    width: 30%;
    margin: 25px;
+   height: fit-content;
    
  }
 
@@ -432,8 +438,7 @@ a {
    margin: 0 20px;
  }
 
- .hi-cards{
+ .hi-box{
    display: flex;
-   max-width: 100%;
    flex-wrap: wrap;
  }
